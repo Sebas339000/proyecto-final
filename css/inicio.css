@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#e9e4e4;
+}
+
+header{
+    background:#c1121f;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin:0;
+    font-size:45px;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:15px;
+}
+
+nav a{
+    color:rgb(253, 249, 249);
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffb703;
+}
+
+.banner{
+    background-image:url("../imagenes/fondo.jpg");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:rgb(247, 243, 243);
+    padding:120px 20px;
+}
+
+.banner h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+button{
+    background:#c1121f;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    margin:5px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#ffb703;
+    color:black;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:40px;
+}
+
+.producto{
+    background:rgb(241, 233, 233);
+    width:300px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+    text-align:center;
+    padding:20px;
+}
+
+.producto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.producto h3{
+    color:#c1121f;
+}
+
+.producto p{
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}

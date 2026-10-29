@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salchi House</title>
+    <link rel="stylesheet" href="css/stiles.css">
+    
+</head>
+
+<body>
+
+<header>
+    <h1>SALCHI HOUSE</h1>
+    <p>Las mejores salchipapas de la ciudad</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="html/catalogo.html">Catálogo</a>
+    <a href="html/salchipapas.html">Salchipapas</a>
+    <a href="html/bebidas.html">Bebidas</a>
+    <a href="html/contacto.html">Contacto</a>
+    <a href="html/carrito.html">🛒 Carrito</a>
+</nav>
+
+<section class="banner">
+
+    <h2>¡Bienvenido a Salchi House!</h2>
+
+    <p>Disfruta de nuestras deliciosas salchipapas, hamburguesas, perros calientes y bebidas.</p>
+
+    <a href="html/catalogo.html">
+        <button>Ver Menú</button>
+    </a>
+
+</section>
+
+<section class="productos">
+
+    <div class="producto">
+        <img src="imagenes/salchipapa1.jpg" alt="Salchipapa Especial">
+
+        <h3>Salchipapa Especial</h3>
+
+        <p>$18.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Salchipapa Especial',18000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+    <div class="producto">
+        <img src="imagenes/salchipapa2.jpg" alt="Salchipapa Ranchera">
+
+        <h3>Salchipapa Ranchera</h3>
+
+        <p>$22.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Salchipapa Ranchera',22000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Salchi House - Todos los derechos reservados.</p>
+</footer>
+
+<script src="carrito.js"></script>
+
+</body>
+</html>

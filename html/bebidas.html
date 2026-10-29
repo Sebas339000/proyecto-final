@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - Salchi House</title>
+    <link rel="stylesheet" href="../css/bebidas.css">
+</head>
+
+<body>
+
+<header>
+    <h1>BEBIDAS</h1>
+    <p>Refresca tu comida con nuestras bebidas</p>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="salchipapas.html">Salchipapas</a>
+    <a href="bebidas.html">Bebidas</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="carrito.html">🛒 Carrito</a>
+</nav>
+
+<section class="productos">
+
+    <div class="producto">
+
+        <img src="images.jpg" alt="Gaseosa">
+
+        <h3>Gaseosa 400 ml</h3>
+
+        <p>Coca-Cola, Pepsi o Colombiana.</p>
+
+        <h2>$5.000</h2>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Gaseosa 400 ml',5000)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+    <div class="producto">
+
+        <img src="images (1).jpg" alt="Jugo Natural">
+
+        <h3>Jugo Natural</h3>
+
+        <p>Mora, mango, fresa o maracuyá.</p>
+
+        <h2>$7.000</h2>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Jugo Natural',7000)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+    <div class="producto">
+
+        <img src="Agua-Manantial-Pet-600-ml-669695_a.webp" alt="Agua">
+
+        <h3>Agua</h3>
+
+        <p>Agua mineral 600 ml.</p>
+
+        <h2>$3.500</h2>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Agua',3500)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+    <div class="producto">
+
+        <img src="images (2).jpg" alt="Malteada">
+
+        <h3>Malteada</h3>
+
+        <p>Chocolate, vainilla o fresa.</p>
+
+        <h2>$12.000</h2>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Malteada',12000)">
+            🛒 Agregar al carrito
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Salchi House - Todos los derechos reservados.</p>
+</footer>
+
+<script src="../carrito.js"></script>
+
+</body>
+</html>
