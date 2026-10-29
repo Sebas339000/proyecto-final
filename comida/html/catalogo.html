@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Salchi House</title>
+    <link rel="stylesheet" href="../css/stiles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>CATÁLOGO</h1>
+    <p>Conoce nuestro menú</p>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="salchipapas.html">Salchipapas</a>
+    <a href="bebidas.html">Bebidas</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="carrito.html">🛒 Carrito</a>
+</nav>
+
+<section class="productos">
+
+    <div class="producto">
+        <img src="images (5).jpg"alt="Salchipapa Especial">
+
+        <h3>Salchipapa Especial</h3>
+
+        <p>$18.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Salchipapa Especial',18000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+    <div class="producto">
+        <img src="Salchipapa-Destacada-390x0-c-default.png" alt="Salchipapa Ranchera">
+
+        <h3>Salchipapa Ranchera</h3>
+
+        <p>$22.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Salchipapa Ranchera',22000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+    <div class="producto">
+        <img src="images (6).jpg" alt="Hamburguesa">
+
+        <h3>Hamburguesa Especial</h3>
+
+        <p>$20.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Hamburguesa Especial',20000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+    <div class="producto">
+        <img src="images (7).jpg" alt="Perro Caliente">
+
+        <h3>Perro Caliente</h3>
+
+        <p>$15.000</p>
+
+        <button>Comprar</button>
+
+        <button onclick="agregarAlCarrito('Perro Caliente',15000)">
+            🛒 Agregar al carrito
+        </button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Salchi House - Todos los derechos reservados.</p>
+</footer>
+
+<script src="../carrito.js"></script>
+
+</body>
+</html>

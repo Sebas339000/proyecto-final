@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Salchi House</title>
+    <link rel="stylesheet" href="../css/carrito.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 CARRITO DE COMPRAS</h1>
+    <p>Revisa los productos que agregaste</p>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="salchipapas.html">Salchipapas</a>
+    <a href="bebidas.html">Bebidas</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="carrito.html">🛒 Carrito</a>
+</nav>
+
+<section class="carrito">
+
+    <h2>Mis productos</h2>
+
+    <ul id="listaCarrito">
+    </ul>
+
+    <h3 id="total">Total: $0</h3>
+
+    <button onclick="vaciarCarrito()">
+        Vaciar carrito
+    </button>
+
+    <button onclick="finalizarCompra()">
+        Finalizar compra
+    </button>
+
+</section>
+
+<footer>
+    <p>© 2026 Salchi House - Todos los derechos reservados.</p>
+</footer>
+
+<script src="../carrito.js"></script>
+
+</body>
+</html>

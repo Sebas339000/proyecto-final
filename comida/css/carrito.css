@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+header{
+    background:#c1121f;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin:0;
+    font-size:45px;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffb703;
+}
+
+.carrito{
+    width:80%;
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+.carrito h2{
+    color:#c1121f;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#listaCarrito{
+    list-style:none;
+    padding:0;
+}
+
+#listaCarrito li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    margin-bottom:10px;
+    border-bottom:1px solid #ddd;
+    font-size:18px;
+}
+
+#total{
+    text-align:right;
+    color:#c1121f;
+    font-size:28px;
+    margin-top:20px;
+}
+
+button{
+    background:#c1121f;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    margin:10px 5px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#ffb703;
+    color:black;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("pexels-photo-14454470.avif");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
